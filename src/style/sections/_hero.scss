@@ -4,10 +4,13 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: black;
+
+  background-position: center;
+  background-size: cover;
   font-weight: 400;
   color: $dark-blue-text;
-  padding: 0rem 5.6rem;
+  padding: 0rem 0rem;
   margin-bottom: 0;
   top: 0;
   left: 0;
@@ -15,18 +18,21 @@
   right: 0;
   z-index: -1;
 
-  // If you want to set a background image on the hero section, uncomment these with yout custom image
-
-  /* background: url("/src/assets/[your-image].png");
-  background-position: center;
-  background-size: cover; */
-
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
+  .hero-content {
+    padding: 0;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @include respond(phone) {
+      flex-direction: column;
+    }
+  }
   .hero-title {
-    font-size: 5.6rem;
+    font-size: 5rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
@@ -46,7 +52,23 @@
       font-size: 2.8rem;
     }
   }
-
+  .hero-subtitle {
+    font-size: 3rem;
+    @include respond(phone) {
+      font-size: 2rem;
+      line-height: 1.5;
+    }
+    @include respond(phone-xs) {
+      font-size: 1rem;
+    }
+  }
+  .hero-img {
+    width: 100%;
+    @include respond(phone) {
+      width: 80%;
+      margin-bottom: 3rem;
+    }
+  }
   .hero-cta {
     display: flex;
 
