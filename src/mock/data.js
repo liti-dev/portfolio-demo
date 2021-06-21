@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'TiaCode', // e.g: 'Name | Developer'
-  lang: 'en', // e.g: en, es, fr, jp
-  description: 'Welcome to my website', // e.g: Welcome to my website
+  title: 'TiaCode',
+  lang: 'en',
+  description: 'Welcome to my website',
 };
 
 // HERO DATA
@@ -18,10 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'mypic.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    "I'm a front-end developer who started off as an educational consultant and language instructor. I strongly believe women should not be restricted in one role during her entire career path. I embrace changes; knowledge excites me. ",
+  paragraphTwo:
+    'Apart from reading and coding, I love cooking, painting, playing with pets and watching horrors films.',
+
+  resume: 'https://www.resumemaker.online/es.php',
 };
 
 // PROJECTS DATA
@@ -29,38 +31,38 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Feed a mole',
+    info: 'A vanilla JS & HTML/CSS game which helps reinforce my knowledge of objects and flow',
     info2: '',
-    url: '',
-    repo: 'https://github.com/liti-dev', // if no repo, the button will not show up
+    url: 'https://feedmoles.netlify.app',
+    repo: 'https://github.com/liti-dev/feed-a-mole',
   },
   {
     id: nanoid(),
     img: 'project1.jpg',
-    title: '',
-    info: '',
+    title: 'Social blog',
+    info: 'A CRUD app which also integrate authentication and authorisation',
     info2: '',
     url: '',
-    repo: 'https://github.com/liti-dev', // if no repo, the button will not show up
+    repo: 'https://github.com/liti-dev',
   },
   {
     id: nanoid(),
     img: 'project2.jpg',
-    title: '',
-    info: '',
+    title: 'Moviix',
+    info: 'Practiced fetching data from The Movie API',
     info2: '',
     url: '',
-    repo: 'https://github.com/liti-dev', // if no repo, the button will not show up
+    repo: 'https://github.com/thuyet311/moviix', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project3.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'PawStation',
+    info: "I'm currently working on this non-profit project which helps connect pets nearby and suggests animal-friendly places",
+    info2: 'Tech stack: React.js Express.js MongoDB',
     url: '',
-    repo: 'https://github.com/liti-dev', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 

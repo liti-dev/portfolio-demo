@@ -28,8 +28,7 @@ const Header = () => {
           <section className="hero-content">
             <div>
               <h1 className="hero-title">
-                {title || 'Hi, my name is'}{' '}
-                <span className="text-color-main">{name || 'Your Name'}</span>
+                {title} <span className="text-color-main">{name}</span>
                 <br />
               </h1>
               <h2 className="hero-title hero-subtitle">
@@ -53,7 +52,7 @@ const Header = () => {
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
-                {cta || 'Know more'}
+                {cta || 'Learn more'}
               </Link>
             </span>
           </p>
