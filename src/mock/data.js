@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'Apart from reading and coding, I love cooking, painting, playing with pets and watching horrors films.',
 
-  resume: 'https://www.resumemaker.online/es.php',
+  // resume: '',
 };
 
 // PROJECTS DATA
