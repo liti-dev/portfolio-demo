@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'TiaCode',
   lang: 'en',
-  description: 'Welcome to my website',
+  description: 'Frontend web developer and Educator',
 };
 
 // HERO DATA
@@ -44,6 +44,15 @@ export const projectsData = [
     info: 'Practiced fetching data from The Movie API',
     info2: 'React.js, react-bootstrap',
     url: 'https://moviix.netlify.app',
+    repo: 'https://github.com/liti-dev/moviix',
+  },
+  {
+    id: nanoid(),
+    img: 'cloud.png',
+    title: 'CloudStorage - Where to store your pictures of clouds',
+    info: 'Worked with Firebase storage and database',
+    info2: 'React.js, Firebase',
+    url: 'https://cloud-store.netlify.app',
     repo: 'https://github.com/liti-dev/moviix',
   },
   {
