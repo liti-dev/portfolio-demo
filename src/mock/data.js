@@ -48,7 +48,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'cloud.png',
+    img: 'cloud.PNG',
     title: 'CloudStorage - Where to store your pictures of clouds',
     info: 'Worked with Firebase storage and database',
     info2: 'React.js, Firebase',
