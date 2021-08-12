@@ -53,7 +53,7 @@ export const projectsData = [
     info: 'Worked with Firebase storage and database',
     info2: 'React.js, Firebase',
     url: 'https://cloud-store.netlify.app',
-    repo: 'https://github.com/liti-dev/moviix',
+    repo: 'https://github.com/liti-dev/cloud-storage',
   },
   {
     id: nanoid(),
