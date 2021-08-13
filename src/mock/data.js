@@ -61,17 +61,17 @@ export const projectsData = [
     title: 'Social blog',
     info: 'Groupwork of making a CRUD app',
     info2: 'React.js, react-bootstrap',
-    url: '',
+
     repo: 'https://github.com/thuyet311/social-blog-team-4',
   },
   {
     id: nanoid(),
     img: 'project3.jpg',
     title: 'PawStation',
-    info: "I'm currently working on this non-profit project which helps connect pets nearby and suggests animal-friendly places",
+    info: "(Not available) I'm currently working on this project which helps connect pets nearby and suggests animal-friendly places",
     info2: 'Tech stack: React.js Express.js MongoDB',
     url: '',
-    repo: '', // if no repo, the button will not show up
+    repo: '',
   },
 ];
 
