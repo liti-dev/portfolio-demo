@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -51,7 +51,7 @@ const About = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn cta-btn--resume"
-                    href="https://drive.google.com/file/d/1fjc90VnAUZ08mei-Q7FEoSsVMbHrn5lp/view?usp=sharing"
+                    href={resume}
                   >
                     Resume
                   </a>
