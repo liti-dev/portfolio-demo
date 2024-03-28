@@ -17,13 +17,13 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'mypic.jpg',
+  img: 'mypic.webp',
   paragraphOne:
-    "I'm a front-end developer who started off as an educational consultant and language instructor. I strongly believe women should not be restricted in one role during her entire career path. I embrace changes; knowledge excites me. ",
+    "I'm a front-end developer who started off as an educational consultant and language instructor. I strongly believe women should not be restricted in one role during their entire career path. I embrace changes; knowledge excites me. ",
   paragraphTwo:
     'Apart from reading and coding, I love cooking, painting, playing with pets and watching horrors films.',
 
-  // resume: '',
+  resume: 'https://drive.google.com/file/d/1cPM84GtUxgYE-BQp9jP9exRfuBYa0Dm7/view?usp=sharing',
 };
 
 // PROJECTS DATA
@@ -39,7 +39,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project2.jpg',
+    img: 'recibees.webp',
+    title: 'Recibees',
+    info: 'A one-stopper for cooking inspiration and personal recipes storage',
+    info2: 'SASS, JavaScript',
+    url: 'https://recibees.netlify.app/',
+    repo: 'https://github.com/liti-dev/recibees',
+  },
+  {
+    id: nanoid(),
+    img: 'moviix.webp',
     title: 'Moviix',
     info: 'Trending movie trailers in one place. Practiced fetching data from The Movie API',
     info2: 'React, react-bootstrap',
@@ -48,7 +57,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'cloud.PNG',
+    img: 'cloud.png',
     title: 'CloudStorage',
     info: 'Pun intended. Storage of your cloud pictures',
     info2: 'React, Firebase',
@@ -57,30 +66,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project1.jpg',
-    title: 'Social blog',
-    info: 'Groupwork of making a CRUD app',
-    info2: 'React, react-bootstrap',
-
-    repo: 'https://github.com/thuyet311/social-blog-team-4',
-  },
-  {
-    id: nanoid(),
-    img: 'project4.jpg',
+    img: 'tialearn.webp',
     title: 'Today Tia Learned',
-    info: 'curated sources of knowledge I gain every day',
+    info: 'curated sources of knowledge I gain every day. Practice using Supabase',
     info2: 'React, Supabase',
     url: 'https://today-tia-learned.netlify.app/',
     repo: 'https://github.com/liti-dev/today-i-learned',
-  },
-  {
-    id: nanoid(),
-    img: 'project3.jpg',
-    title: 'PawStation',
-    info: "I'm currently working on this project which helps connect pets nearby and suggests animal-friendly places",
-    info2: 'Tech stack: React, Express.js, MongoDB',
-    url: '',
-    repo: '',
   },
 ];
 
