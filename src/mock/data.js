@@ -30,7 +30,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'feedmole.webp',
     title: 'Feed a mole',
     info: 'A vanilla JS & HTML/CSS game which helps reinforce my knowledge of objects and flow',
     info2: 'HTML/CSS, JavaScript',
@@ -57,7 +57,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'cloud.png',
+    img: 'cloud.PNG',
     title: 'CloudStorage',
     info: 'Pun intended. Storage of your cloud pictures',
     info2: 'React, Firebase',
