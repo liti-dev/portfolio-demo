@@ -11,17 +11,17 @@ export const headData = {
 export const heroData = {
   title: "Hi, I'm ",
   name: 'Thuyet (Tia)',
-  subtitle: '',
-  cta: '',
+  subtitle: 'Fullstack engineer <br> Green software advocate',
+  cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'mypic.webp',
   paragraphOne:
-    "I'm a front-end developer who started off as an educational consultant and language instructor. I strongly believe women should not be restricted in one role during their entire career path. I embrace changes; knowledge excites me. ",
+    "Teacher-turned-Fullstack Developer with a focus on sustainability. I've worked on projects for purpose-driven companies such as DiverseTalent.ai, Article1, Diginex ESG builder.",
   paragraphTwo:
-    'Apart from reading and coding, I love cooking, painting, playing with pets and watching horrors films.',
+    'My teaching and consulting background helps me craft intuitive and user-centric apps and communicate technical concepts with clarity, enabling effective collaboration with teammates and non-tech stakeholders.',
 
   resume: 'https://drive.google.com/file/d/1cPM84GtUxgYE-BQp9jP9exRfuBYa0Dm7/view?usp=sharing',
 };

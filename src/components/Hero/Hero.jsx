@@ -31,18 +31,18 @@ const Header = () => {
                 {title} <span className="text-color-main">{name}</span>
                 <br />
               </h1>
-              <h2 className="hero-title hero-subtitle">
-                Eccentric Frontend Developer
-                <br />
-                Hopeless Animal Lover
-              </h2>
+              <h2
+                className="hero-title hero-subtitle"
+                // eslint-disable-next-line react/no-danger
+                dangerouslySetInnerHTML={{ __html: subtitle }}
+              />
             </div>
 
             <div>
               <img
                 className="hero-img"
                 src="https://i.ibb.co/wW9nw5m/2823496-removebg-preview.png"
-                alt="2823496-removebg-preview"
+                alt="women programmer"
                 border="0"
               />
             </div>
